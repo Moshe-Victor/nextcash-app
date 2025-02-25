@@ -11,8 +11,6 @@ export default async function EditTransactionPage({
                                                       params: Promise<{ transactionId: string }>
                                                   }
 ) {
-
-    const paramsvalues = await params;
     const paramsValues = await params;
     const transactionId = Number(paramsValues.transactionId);
 

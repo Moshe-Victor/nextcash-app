@@ -7,7 +7,6 @@ import {
 } from "@/components/ui/breadcrumb";
 import Link from "next/link";
 import {Card, CardContent, CardHeader, CardTitle} from "@/components/ui/card";
-import NewTransactionForm from "@/app/dashboard/transactions/new/new-transaction-form";
 import {Button} from "@/components/ui/button";
 import { z } from "zod";
 import {format} from "date-fns";
